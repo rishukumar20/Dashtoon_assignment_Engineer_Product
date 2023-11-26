@@ -1,0 +1,56 @@
+/* Global styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Animated square styling */
+.animated-square {
+  width: 80px;
+  height: 80px;
+  background-color: #3498db;
+  animation: rotateColor 2s infinite linear;
+}
+
+/* Header styling */
+.header {
+  background-color: #e74c3c;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation link styling */
+.nav-link {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for the navigation link */
+.nav-link:hover {
+  color: #f39c12;
+}
+
+/* Keyframes for color rotation animation */
+@keyframes rotateColor {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

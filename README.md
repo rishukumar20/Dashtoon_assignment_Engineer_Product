@@ -1,10 +1,5 @@
 
 
-
-- Dynamic Page Creation: Seamlessly create comic pages with interactive prompts.
-- Hugging Face API Integration: Generate vibrant comic images based on user inputs.
-- PDF Download: Download your completed comics as PDF files for easy sharing.
-
 ## Usage
 
 1. Visit Dashtoon Comic Creator or deploy the app locally.
